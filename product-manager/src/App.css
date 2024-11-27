@@ -1,0 +1,104 @@
+/* Đặt lại style cơ bản */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Đảm bảo hình ảnh luôn vừa khung */
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+
+/* Input Fields */
+input[type="text"], input[type="number"], textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+textarea {
+  resize: vertical;
+}
+/* Container chính */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+
+/* Hover hiệu ứng cho container */
+.container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Tiêu đề chính */
+h1 {
+  font-size: 28px;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+/* Đoạn văn bản */
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Nút bấm (nếu cần thêm) */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover cho nút bấm */
+button:hover {
+  background-color: #357ab8;
+ }
